@@ -14,8 +14,8 @@ function draw(){
     background(0);
     x += random(-5, 5);
     y += random(-5, 5);
-    fill(255, 200);
-    stroke(255);
+    fill(255, 0, 0);
+    noStroke();
     rectMode(CENTER);
     rect(x, y, 20, 20);
 
